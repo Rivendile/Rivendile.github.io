@@ -111,23 +111,35 @@
 
 
     <tbody>
+        <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+          <td valign="top" width="100%">
+<!--        <a href="https://arxiv.org/pdf/1911.09943.pdf">-->
+                <papertitle>Multi-Resource Interleaving for Deep Learning Training</papertitle>
+<!--        </a>-->
+        <br>
+        <strong>Yihao Zhao</strong>, Yuanqiang Liu, Yanghua Peng, Yibo Zhu,
+        <a href="http://www.liuxuanzhe.com/">Xuanzhe Liu</a>,
+        <a href="https://xinjin.github.io/">Xin Jin</a>.
+        <br>
+            <em>SIGCOMM</em>, 2022 (to appear) <br>
+<!--            <a href="https://arxiv.org/abs/1911.09943">arXiv</a>-->
+            paper
+            /
+            code
+            /
+            bibtex
+<!--            <a href="./bib/dlgan.bib">bibtex</a>-->
+            <p></p>
+            <p> In this paper, we present Muri, a multi-resource cluster scheduler for DL workloads. Muri
+            exploits multi-resource interleaving of DL training jobs to achieve high
+            resource utilization and reduce job completion time (JCT).
+            Experiments on a cluster with 64 GPUs demonstrate that Muri improves the average
+            JCT by up to 3.6X and the makespan by up to 1.6X over existing DL schedulers.</p>
+          </td>
+        </tr>
+        
       <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
-        <td width="25%">
-          <div class="one">
-          <div class="two" id="portrait_image" style="opacity: 0;"><img src="./images/aclgan.png"></div>
-          <img src="./images/aclgan.png">
-          </div>
-          <script type="text/javascript">
-          function portrait_start() {
-          document.getElementById('portrait_image').style.opacity = "1";
-          }
-          function portrait_stop() {
-          document.getElementById('portrait_image').style.opacity = "0";
-          }
-          portrait_stop()
-          </script>
-        </td>
-        <td valign="top" width="75%">
+        <td valign="top" width="100%">
       <a href="https://arxiv.org/abs/2003.04858">
               <papertitle>Unpaired Image-to-Image Translation using Adversarial Consistency Loss</papertitle>
       </a>
@@ -137,48 +149,13 @@
       <a href="https://zsdonghao.github.io/">Hao Dong</a>.
       <br>
           <em>ECCV</em>, 2020 <br>
-          <a href="https://arxiv.org/abs/2003.04858">arXiv</a>
+          <a href="https://arxiv.org/abs/2003.04858">paper</a>
           / 
           <a href="https://github.com/hyperplane-lab/ACL-GAN">codes</a>
           / 
           <a href="./bib/aclgan.bib">bibtex</a>
           <p></p>
           <p> In this paper, we propose a novel adversarial consistency loss for unpaired image-to-image translation. This loss can encourage the translated images to retain important features of the source images and overcome the drawbacks of cycle-consistency loss.</p>
-        </td>
-      </tr>
-
-      <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
-        <td width="25%">
-          <div class="one">
-          <div class="two" id="portrait_image" style="opacity: 0;"><img src="./images/dlgan.png"></div>
-          <img src="./images/dlgan.png">
-          </div>
-          <script type="text/javascript">
-          function portrait_start() {
-          document.getElementById('portrait_image').style.opacity = "1";
-          }
-          function portrait_stop() {
-          document.getElementById('portrait_image').style.opacity = "0";
-          }
-          portrait_stop()
-          </script>
-        </td>
-        <td valign="top" width="75%">
-      <a href="https://arxiv.org/pdf/1911.09943.pdf">
-              <papertitle>DLGAN: Disentangling Label-Specific Fine-Grained Features for Image Manipulation</papertitle>
-      </a>
-      <br>
-      <a href="https://championchess.github.io">Guanqi Zhan*</a>, <strong>Yihao Zhao*</strong>,
-          Bingchan Zhao, Haoqi Yuan,
-      <a href="https://cfcs.pku.edu.cn/baoquan/">Baoquan Chen</a>, 
-      <a href="https://zsdonghao.github.io/">Hao Dong</a>.
-      <br>
-          <em>arXiv</em>, 2020 <br>
-          <a href="https://arxiv.org/abs/1911.09943">arXiv</a>
-          / 
-          <a href="./bib/dlgan.bib">bibtex</a>
-          <p></p>
-          <p> The first work to utilize discrete multi-labels to control which features to be disentangled, and enable interpolation between two domains without using continuous labels. An end-to-end method to support image manipulation conditioned on both images and labels, enabling both smooth and immediate changes simultaneously.</p>
         </td>
       </tr>
 
